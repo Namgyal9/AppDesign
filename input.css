@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navItem {
+    @apply hover:text-black hover:bg-white hover:rounded-full text-center p-2;
+  }
+}
